@@ -381,6 +381,9 @@
 /* Begin PBXProject section */
 		4E8FB05D1427247C005854AA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
 			buildConfigurationList = 4E8FB0601427247C005854AA /* Build configuration list for PBXProject "MWKit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -553,7 +556,7 @@
 				DSTROOT = /tmp/MWKitMobile.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MWKitMobile/MWKitMobile-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
 				INSTALL_PATH = "@loader_path/../Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
@@ -578,7 +581,7 @@
 				DSTROOT = /tmp/MWKitMobile.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MWKitMobile/MWKitMobile-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
 				INSTALL_PATH = "@loader_path/../Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
